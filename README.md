@@ -28,3 +28,4 @@ On first startup the backend creates the database tables and inserts sample jobs
 ## Local development
 ### 1. PostgreSQL
 Start only the database:
+```bash
