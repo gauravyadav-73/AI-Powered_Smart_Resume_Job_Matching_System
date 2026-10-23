@@ -19,5 +19,5 @@ docker compose up --build
 ```
 
 Then open:
-- Frontend:
+- Frontend: http://localhost:5173
 - Backend health:
