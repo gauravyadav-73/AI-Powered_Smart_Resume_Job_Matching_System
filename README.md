@@ -29,3 +29,5 @@ On first startup the backend creates the database tables and inserts sample jobs
 ### 1. PostgreSQL
 Start only the database:
 ```bash
+docker compose up -d db
+```
