@@ -47,3 +47,4 @@ cd frontend
 npm install
 npm run dev
 ```
+Vite proxies `/api` to `http://localhost:8080`.
