@@ -31,3 +31,5 @@ Start only the database:
 ```bash
 docker compose up -d db
 ```
+
+### 2. Backend
