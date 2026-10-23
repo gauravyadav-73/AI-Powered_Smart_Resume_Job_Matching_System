@@ -24,3 +24,5 @@ Then open:
 - API docs by endpoint list below.
 
 On first startup the backend creates the database tables and inserts sample jobs.
+
+## Local development
