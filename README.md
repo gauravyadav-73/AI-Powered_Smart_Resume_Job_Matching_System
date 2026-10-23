@@ -22,3 +22,5 @@ Then open:
 - Frontend: http://localhost:5173
 - Backend health: http://localhost:8080/api/health
 - API docs by endpoint list below.
+
+On first startup the backend creates the database tables and inserts sample jobs.
