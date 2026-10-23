@@ -3,4 +3,4 @@
 A ready-to-run full-stack Java project for parsing resumes, managing job postings, and ranking jobs by resume similarity.
 
 ## Tech stack
-- Backend:
+- Backend: Java 17, Spring Boot 3.3, Spring Web, Spring Data JPA, Bean Validation
