@@ -17,3 +17,5 @@ Requirements: Docker Desktop / Docker Engine with Compose.
 ```bash
 docker compose up --build
 ```
+
+Then open:
