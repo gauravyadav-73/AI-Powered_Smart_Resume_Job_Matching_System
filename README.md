@@ -36,3 +36,4 @@ docker compose up -d db
 Requirements: Java 17+ and Maven 3.9+.
 ```bash
 cd backend
+mvn spring-boot:run
