@@ -43,3 +43,4 @@ Default connection is `localhost:5432`, database `resume_matcher`, user `resume_
 ### 3. Frontend
 Requirements: Node.js 20+.
 ```bash
+cd frontend
