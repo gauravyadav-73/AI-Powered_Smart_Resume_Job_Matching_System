@@ -33,3 +33,4 @@ docker compose up -d db
 ```
 
 ### 2. Backend
+Requirements: Java 17+ and Maven 3.9+.
