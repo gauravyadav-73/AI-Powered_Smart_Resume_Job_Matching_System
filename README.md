@@ -20,4 +20,4 @@ docker compose up --build
 
 Then open:
 - Frontend: http://localhost:5173
-- Backend health:
+- Backend health: http://localhost:8080/api/health
