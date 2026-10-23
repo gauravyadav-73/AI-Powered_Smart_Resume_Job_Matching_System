@@ -15,3 +15,4 @@ A ready-to-run full-stack Java project for parsing resumes, managing job posting
 Requirements: Docker Desktop / Docker Engine with Compose.
 
 ```bash
+docker compose up --build
