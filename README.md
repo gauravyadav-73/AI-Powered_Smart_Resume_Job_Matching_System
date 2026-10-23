@@ -7,4 +7,4 @@ A ready-to-run full-stack Java project for parsing resumes, managing job posting
 - NLP: Apache Tika text extraction + token normalization, stop-word filtering, TF-IDF weighted vectors, cosine similarity
 - Database: PostgreSQL
 - Frontend: React + Vite
-- Hosting/dev:
+- Hosting/dev: Docker Compose
