@@ -20,3 +20,4 @@ docker compose up --build
 
 Then open:
 - Frontend:
+- Backend health:
