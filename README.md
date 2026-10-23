@@ -39,3 +39,5 @@ cd backend
 mvn spring-boot:run
 ```
 Default connection is `localhost:5432`, database `resume_matcher`, user `resume_user`, password `resume_pass`. Override with `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, and `SPRING_DATASOURCE_PASSWORD`.
+
+### 3. Frontend
