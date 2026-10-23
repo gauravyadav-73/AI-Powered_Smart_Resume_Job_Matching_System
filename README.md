@@ -12,4 +12,4 @@ A ready-to-run full-stack Java project for parsing resumes, managing job posting
 > This is a transparent, explainable baseline matching system, not a hiring decision engine. Scores are similarity estimates and should not be used as the sole basis for employment decisions.
 
 ## Quick start (Docker)
-Requirements:
+Requirements: Docker Desktop / Docker Engine with Compose.
