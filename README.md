@@ -45,3 +45,5 @@ Requirements: Node.js 20+.
 ```bash
 cd frontend
 npm install
+npm run dev
+```
