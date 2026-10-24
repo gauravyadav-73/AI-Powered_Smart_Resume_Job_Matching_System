@@ -56,3 +56,4 @@ Vite proxies `/api` to `http://localhost:8080`.
 - `POST /api/jobs` — create job (JSON)
 - `DELETE /api/jobs/{id}` — delete job
 - `POST /api/resumes/analyze` — multipart upload with `file` and optional `resumeText`
+- `POST /api/matches` — JSON `{ "resumeText": "...", "topK": 10 }`; returns ranked jobs with score and matched terms
