@@ -60,3 +60,4 @@ Vite proxies `/api` to `http://localhost:8080`.
 
 ### Example create job
 ```bash
+curl -X POST http://localhost:8080/api/jobs \
