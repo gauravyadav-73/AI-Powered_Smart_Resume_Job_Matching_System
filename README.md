@@ -62,3 +62,4 @@ Vite proxies `/api` to `http://localhost:8080`.
 ```bash
 curl -X POST http://localhost:8080/api/jobs \
   -H 'Content-Type: application/json' \
+  -d '{"title":"Java Developer","company":"Example Co","location":"Remote","description":"Build REST APIs using Java and Spring Boot.","requiredSkills":"Java, Spring
