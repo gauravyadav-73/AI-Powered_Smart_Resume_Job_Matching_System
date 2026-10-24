@@ -51,3 +51,4 @@ Vite proxies `/api` to `http://localhost:8080`.
 
 ## API
 - `GET /api/health` — health check
+- `GET /api/jobs` — list jobs
