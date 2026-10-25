@@ -68,3 +68,4 @@ curl -X POST http://localhost:8080/api/jobs \
 
 ### Example match request
 ```bash
+curl -X POST http://localhost:8080/api/matches \
