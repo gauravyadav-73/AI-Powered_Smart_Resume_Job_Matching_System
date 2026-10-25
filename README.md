@@ -77,4 +77,4 @@ curl -X POST http://localhost:8080/api/matches \
 PDF, DOCX, TXT, and DOC are supported by Apache Tika. Keep uploads under 5 MB. If a PDF is scanned/image-only, OCR is not included, so text extraction may be empty. You can paste resume text into the UI as a fallback.
 
 ## Deployment notes
-For production, set strong database credentials and secrets through environment variables,
+For production, set strong database credentials and secrets through environment variables, configure HTTPS and CORS for your domain, add authentication/authorization and rate limiting,
