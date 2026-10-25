@@ -64,3 +64,4 @@ curl -X POST http://localhost:8080/api/jobs \
   -H 'Content-Type: application/json' \
   -d '{"title":"Java Developer","company":"Example Co","location":"Remote","description":"Build REST APIs using Java and Spring Boot.","requiredSkills":"Java, Spring
   Boot, SQL, REST API","employmentType":"Full-time"}'
+```
