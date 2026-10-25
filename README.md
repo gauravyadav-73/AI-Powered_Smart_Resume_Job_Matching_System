@@ -74,3 +74,4 @@ curl -X POST http://localhost:8080/api/matches \
 ```
 
 ## Resume formats
+PDF, DOCX, TXT, and DOC are supported by Apache Tika. Keep uploads under 5 MB.
