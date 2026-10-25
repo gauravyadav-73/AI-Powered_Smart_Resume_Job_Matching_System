@@ -76,3 +76,4 @@ curl -X POST http://localhost:8080/api/matches \
 ## Resume formats
 PDF, DOCX, TXT, and DOC are supported by Apache Tika. Keep uploads under 5 MB. If a PDF is scanned/image-only, OCR is not included, so text extraction may be empty. You can paste resume text into the UI as a fallback.
 
+## Deployment notes
