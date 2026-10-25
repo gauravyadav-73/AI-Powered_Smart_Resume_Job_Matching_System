@@ -70,3 +70,4 @@ curl -X POST http://localhost:8080/api/jobs \
 ```bash
 curl -X POST http://localhost:8080/api/matches \
   -H 'Content-Type: application/json' \
+  -d '{"resumeText":"Java developer with Spring Boot, PostgreSQL, REST APIs and Docker experience.","topK":5}'
