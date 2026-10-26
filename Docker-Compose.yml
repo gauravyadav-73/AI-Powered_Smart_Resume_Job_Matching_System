@@ -17,4 +17,5 @@ db:
 
   backend:
     build: ./backend
+    environment:
 
