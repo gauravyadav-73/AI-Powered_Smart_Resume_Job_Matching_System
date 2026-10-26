@@ -12,4 +12,5 @@ db:
   healthcheck:
     test: ["CMD-SHELL", "pg_isready -U resume_user -d resume_matcher"]
     interval: 5s
+    timeout: 5s
 
