@@ -19,4 +19,5 @@ db:
     build: ./backend
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/resume_matcher
+      SPRING_DATASOURCE_USERNAME: resume_user
 
