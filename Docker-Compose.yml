@@ -20,4 +20,5 @@ db:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/resume_matcher
       SPRING_DATASOURCE_USERNAME: resume_user
+      SPRING_DATASOURCE_PASSWORD: resume_pass
 
