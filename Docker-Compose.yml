@@ -6,4 +6,6 @@ db:
     POSTGRES_USER: resume_user
     POSTGRES_PASSWORD: resume_pass
   ports:
+    - "5432:5432"
+  
 
