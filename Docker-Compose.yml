@@ -22,4 +22,5 @@ db:
       SPRING_DATASOURCE_USERNAME: resume_user
       SPRING_DATASOURCE_PASSWORD: resume_pass
       APP_CORS_ALLOWED_ORIGINS: http://localhost:5173
+    ports:
 
