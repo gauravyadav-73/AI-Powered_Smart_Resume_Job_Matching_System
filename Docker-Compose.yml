@@ -29,5 +29,6 @@ db:
         condition: service_healthy
 
   frontend:
+    build: ./frontend
       
 
