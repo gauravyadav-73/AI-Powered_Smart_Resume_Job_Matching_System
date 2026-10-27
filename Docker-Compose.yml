@@ -32,5 +32,6 @@ db:
     build: ./frontend
     environment:
       API_PROXY_TARGET: http://backend:8080
+    ports:
       
 
