@@ -3,4 +3,4 @@ import { FileText, Search, BriefcaseBusiness, Sparkles, Upload, ArrowUpRight, Ma
 
 const sampleResume = `Java developer with 2 years of experience building REST APIs using Java, Spring Boot, JPA and PostgreSQL. Familiar with React, JavaScript, Docker, Git, unit testing and CI/CD. Built scalable backend services and collaborated with frontend teams.`
 
-async function api
+async function api(path, options = {}) {
