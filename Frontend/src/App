@@ -5,3 +5,4 @@ const sampleResume = `Java developer with 2 years of experience building REST AP
 
 async function api(path, options = {}) {
   const response = await fetch(path, options)
+  if (!response.ok) {
