@@ -15,3 +15,4 @@ async function api(path, options = {}) {
 }
 
 export default function App() {
+  const [jobs, setJobs] = useState([])
