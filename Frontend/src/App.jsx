@@ -18,3 +18,4 @@ export default function App() {
   const [jobs, setJobs] = useState([])
   const [resumeText, setResumeText] = useState('')
   const [file, setFile] = useState(null)
+  const [results, setResults] = useState([])
