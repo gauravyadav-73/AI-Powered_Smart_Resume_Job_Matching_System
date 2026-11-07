@@ -8,3 +8,4 @@ async function api(path, options = {}) {
   if (!response.ok) {
     let message = 'Request failed ($response.status})'
     try { const body = await response.json(); message = body.message || body.error || message } catch {}
+    throw new Error(message)
