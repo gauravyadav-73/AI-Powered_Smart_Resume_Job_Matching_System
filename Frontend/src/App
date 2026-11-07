@@ -9,5 +9,5 @@ async function api(path, options = {}) {
     let message = 'Request failed ($response.status})'
     try { const body = await response.json(); message = body.message || body.error || message } catch {}
     throw new Error(message)
-
   }
+  if (response.status === 204) return null
