@@ -24,3 +24,4 @@ export default function App() {
   const [error, setError] = useState('')
   const [notice, setNotice] = useState('')
   const [activeTab, setActiveTab] = useState('match')
+  const [search, setSearch]
