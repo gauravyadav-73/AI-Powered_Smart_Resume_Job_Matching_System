@@ -28,4 +28,4 @@ export default function App() {
   const [showAdd, setShowAdd] = useState(false)
   const [form, setForm] = useState({title:'',company:'',location:'Remote',employmentType:'Full-time',requiredSkills:'',description:''})
 
-  const loadJobs
+  const loadJobs = async () 
