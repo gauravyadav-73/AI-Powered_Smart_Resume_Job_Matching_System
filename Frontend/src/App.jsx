@@ -25,4 +25,4 @@ export default function App() {
   const [notice, setNotice] = useState('')
   const [activeTab, setActiveTab] = useState('match')
   const [search, setSearch] = useState('')
-  const [showAdd, setShowAdd]
+  const [showAdd, setShowAdd] = useState(false)
