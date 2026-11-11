@@ -19,4 +19,4 @@ export default function App() {
   const [resumeText, setResumeText] = useState('')
   const [file, setFile] = useState(null)
   const [results, setResults] = useState([])
-  const [analysis, setAnalysis]
+  const [analysis, setAnalysis] = useState(null)
