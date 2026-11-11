@@ -21,3 +21,4 @@ export default function App() {
   const [results, setResults] = useState([])
   const [analysis, setAnalysis] = useState(null)
   const [loading, setLoading] = useState(false)
+  const [error, setError]
