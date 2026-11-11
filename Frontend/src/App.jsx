@@ -26,4 +26,4 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('match')
   const [search, setSearch] = useState('')
   const [showAdd, setShowAdd] = useState(false)
-  const [form, setForm] = useState({title:'',company:'',location:'Remote',employmentType:
+  const [form, setForm] = useState({title:'',company:'',location:'Remote',employmentType:'Full-time',requiredSkills:'',description:''})
