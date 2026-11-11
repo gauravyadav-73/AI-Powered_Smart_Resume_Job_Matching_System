@@ -20,4 +20,4 @@ export default function App() {
   const [file, setFile] = useState(null)
   const [results, setResults] = useState([])
   const [analysis, setAnalysis] = useState(null)
-  const [loading, setLoading]
+  const [loading, setLoading] = useState(false)
