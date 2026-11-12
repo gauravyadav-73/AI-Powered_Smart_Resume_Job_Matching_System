@@ -37,3 +37,4 @@ export default function App() {
     setError(''); setNotice(''); setLoading(true)
     try {
       let text = resumeText.trim()
+      if (file) {
