@@ -30,4 +30,4 @@ export default function App() {
 
   const loadJobs = async () => { try { setJobs(await api('/api/jobs')) } catch (e) { setError(e.message) } }
   useEffect(() => { loadJobs() }, [])
-  const filteredJobs = useMemo(() 
+  const filteredJobs = useMemo(() => jobs.filter(j => `${j.title} ${j.company} ${j.requiredSkills} 
