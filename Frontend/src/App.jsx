@@ -33,3 +33,4 @@ export default function App() {
   const filteredJobs = useMemo(() => jobs.filter(j => `${j.title} ${j.company} ${j.requiredSkills} ${j.description}`.toLowerCase().includes(search.toLowerCase())), [jobs, search])
 
   const runMatch = async (e) => {
+    e?.preventDefault()
