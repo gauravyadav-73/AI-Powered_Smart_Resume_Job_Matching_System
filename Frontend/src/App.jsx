@@ -36,3 +36,4 @@ export default function App() {
     e?.preventDefault()
     setError(''); setNotice(''); setLoading(true)
     try {
+      let text = resumeText.trim()
