@@ -38,3 +38,4 @@ export default function App() {
     try {
       let text = resumeText.trim()
       if (file) {
+        const data = new FormData();
