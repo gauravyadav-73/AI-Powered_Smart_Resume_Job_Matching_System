@@ -39,4 +39,4 @@ export default function App() {
       let text = resumeText.trim()
       if (file) {
         const data = new FormData(); data.append('file', file)
-        const parsed = await api('/api/resumes/analyze',
+        const parsed = await api('/api/resumes/analyze', { method: 'POST', body: data })
