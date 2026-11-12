@@ -29,3 +29,4 @@ export default function App() {
   const [form, setForm] = useState({title:'',company:'',location:'Remote',employmentType:'Full-time',requiredSkills:'',description:''})
 
   const loadJobs = async () => { try { setJobs(await api('/api/jobs')) } catch (e) { setError(e.message) } }
+  useEffect(() => { loadJobs() }, [])
