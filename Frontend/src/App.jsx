@@ -31,3 +31,5 @@ export default function App() {
   const loadJobs = async () => { try { setJobs(await api('/api/jobs')) } catch (e) { setError(e.message) } }
   useEffect(() => { loadJobs() }, [])
   const filteredJobs = useMemo(() => jobs.filter(j => `${j.title} ${j.company} ${j.requiredSkills} ${j.description}`.toLowerCase().includes(search.toLowerCase())), [jobs, search])
+
+  const runMatch = async (e) => {
