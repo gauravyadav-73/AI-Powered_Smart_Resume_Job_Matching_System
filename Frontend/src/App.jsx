@@ -38,4 +38,4 @@ export default function App() {
     try {
       let text = resumeText.trim()
       if (file) {
-        const data = new FormData();
+        const data = new FormData(); data.append('file', file)
