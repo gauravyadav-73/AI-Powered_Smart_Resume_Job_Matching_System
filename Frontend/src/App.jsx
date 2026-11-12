@@ -34,3 +34,4 @@ export default function App() {
 
   const runMatch = async (e) => {
     e?.preventDefault()
+    setError(''); setNotice(''); setLoading(true)
