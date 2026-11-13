@@ -42,4 +42,4 @@ export default function App() {
         const parsed = await api('/api/resumes/analyze', { method: 'POST', body: data })
         text = parsed.text; setResumeText(text); setAnalysis(parsed)
       }
-      if (!text) throw new Error('Paste your res
+      if (!text) throw new Error('Paste your resume text or upload a resume first.')
