@@ -48,3 +48,4 @@ export default function App() {
       const matches = await api('/api/matches', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({resumeText:text,topK:10}) })
       setResults(matches); setActiveTab('match'); setNotice(`Analysis complete — ranked ${matches.length} jobs.`)
     } catch (e) { setError(e.message) } finally { setLoading(false) }
+  }
