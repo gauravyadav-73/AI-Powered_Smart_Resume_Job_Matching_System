@@ -49,3 +49,5 @@ export default function App() {
       setResults(matches); setActiveTab('match'); setNotice(`Analysis complete — ranked ${matches.length} jobs.`)
     } catch (e) { setError(e.message) } finally { setLoading(false) }
   }
+  
+  const createJob = async (e) => {
