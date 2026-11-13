@@ -53,4 +53,4 @@ export default function App() {
   const createJob = async (e) => {
     e.preventDefault(); setError(''); setNotice('')
     try {
-      await api('/api/jobs', {method:'POST',headers:{'Content-Type':'application/json'}
+      await api('/api/jobs', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(form)})
