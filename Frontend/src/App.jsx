@@ -52,3 +52,4 @@ export default function App() {
   
   const createJob = async (e) => {
     e.preventDefault(); setError(''); setNotice('')
+    try {
