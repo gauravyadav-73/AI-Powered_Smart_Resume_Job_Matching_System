@@ -46,3 +46,4 @@ export default function App() {
       const parsed = await api('/api/resumes/analyze', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body: new URLSearchParams({resumeText:text}) })
       setAnalysis(parsed)
       const matches = await api('/api/matches', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({resumeText:text,topK:10}) })
+      setResults(matches); setActiveTab('match');
