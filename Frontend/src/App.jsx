@@ -45,3 +45,4 @@ export default function App() {
       if (!text) throw new Error('Paste your resume text or upload a resume first.')
       const parsed = await api('/api/resumes/analyze', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body: new URLSearchParams({resumeText:text}) })
       setAnalysis(parsed)
+      const matches = await api('/api/matches',
