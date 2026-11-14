@@ -58,3 +58,4 @@ export default function App() {
       setShowAdd(false); await loadJobs(); setNotice('Job published successfully.')
     } catch(e) { setError(e.message) }
   }
+  const deleteJob 
