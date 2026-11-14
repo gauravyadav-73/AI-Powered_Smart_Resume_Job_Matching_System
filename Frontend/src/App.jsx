@@ -60,4 +60,4 @@ export default function App() {
   }
   const deleteJob = async (id) => {
     if (!confirm('Delete this job posting?')) return
-    try { await api(`/api/jobs/${id}`,{method:'DELETE'}); 
+    try { await api(`/api/jobs/${id}`,{method:'DELETE'}); await loadJobs(); 
