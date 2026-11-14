@@ -55,4 +55,4 @@ export default function App() {
     try {
       await api('/api/jobs', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(form)})
       setForm({title:'',company:'',location:'Remote',employmentType:'Full-time',requiredSkills:'',description:''})
-      setShowAdd(false); await loadJobs(); setNotice('Job
+      setShowAdd(false); await loadJobs(); setNotice('Job published successfully.')
