@@ -59,3 +59,4 @@ export default function App() {
     } catch(e) { setError(e.message) }
   }
   const deleteJob = async (id) => {
+    if (!confirm('Delete
