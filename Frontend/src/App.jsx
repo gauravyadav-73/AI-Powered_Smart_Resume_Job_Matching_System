@@ -54,4 +54,4 @@ export default function App() {
     e.preventDefault(); setError(''); setNotice('')
     try {
       await api('/api/jobs', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(form)})
-      setForm({title:'',company:'',location:
+      setForm({title:'',company:'',location:'Remote',employmentType:'Full-time'
