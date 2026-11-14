@@ -63,4 +63,4 @@ export default function App() {
     try { await api(`/api/jobs/${id}`,{method:'DELETE'}); await loadJobs(); setResults(r=>r.filter(x=>x.job.id!==id)); setNotice('Job deleted.') } catch(e) { setError(e.message) }
   }
 
-  return <div className=
+  return <div className="app-shell">
