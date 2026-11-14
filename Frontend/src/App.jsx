@@ -57,3 +57,4 @@ export default function App() {
       setForm({title:'',company:'',location:'Remote',employmentType:'Full-time',requiredSkills:'',description:''})
       setShowAdd(false); await loadJobs(); setNotice('Job published successfully.')
     } catch(e) { setError(e.message) }
+  }
