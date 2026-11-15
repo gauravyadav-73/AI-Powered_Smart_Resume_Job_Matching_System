@@ -65,4 +65,4 @@ export default function App() {
 
   return <div className="app-shell">
     <aside className="sidebar">
-      <div className="brand"><div className="brand-mark"><Sparkles size={21}/></div><div><strong>CareerLens
+      <div className="brand"><div className="brand-mark"><Sparkles size={21}/></div><div><strong>CareerLens</strong><span>AI CAREER STUDIO
