@@ -67,4 +67,4 @@ export default function App() {
     <aside className="sidebar">
       <div className="brand"><div className="brand-mark"><Sparkles size={21}/></div><div><strong>CareerLens</strong><span>AI CAREER STUDIO</span></div></div>
       <div className="workspace-label">WORKSPACE</div>
-      <button className={`nav-item ${activeTab==='match'?'active':''}`
+      <button className={`nav-item ${activeTab==='match'?'active':''}`} onClick={()=>setActiveTab('match')
