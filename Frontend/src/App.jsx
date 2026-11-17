@@ -70,4 +70,4 @@ export default function App() {
       <button className={`nav-item ${activeTab==='match'?'active':''}`} onClick={()=>setActiveTab('match')}><Search size={18}/> Resume matching</button>
       <button className={`nav-item ${activeTab==='jobs'?'active':''}`} onClick={()=>setActiveTab('jobs')}><BriefcaseBusiness size={18}/> Explore jobs <span className="nav-count">{jobs.length}</span></button>
       <div className="sidebar-bottom"><div className="mini-icon"><Sparkles size={17}/></div><div><b>Smarter career moves</b><p>Find opportunities that fit your skills.</p></div></div>
-      <div className="sidebar-foot">
+      <div className="sidebar-foot">BUILT FOR YOUR NEXT CHAPTER</div>
