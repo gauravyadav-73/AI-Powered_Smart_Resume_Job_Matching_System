@@ -68,4 +68,4 @@ export default function App() {
       <div className="brand"><div className="brand-mark"><Sparkles size={21}/></div><div><strong>CareerLens</strong><span>AI CAREER STUDIO</span></div></div>
       <div className="workspace-label">WORKSPACE</div>
       <button className={`nav-item ${activeTab==='match'?'active':''}`} onClick={()=>setActiveTab('match')}><Search size={18}/> Resume matching</button>
-      <button className={`nav-item ${activeTab==='jobs'?'active':''}`} onClick={()=>setActiveTab('jobs')}
+      <button className={`nav-item ${activeTab==='jobs'?'active':''}`} onClick={()=>setActiveTab('jobs')}><BriefcaseBusiness size={18}/>
