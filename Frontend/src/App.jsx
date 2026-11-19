@@ -78,4 +78,4 @@ export default function App() {
         <div className="hero-copy"><div className="eyebrow"><Sparkles size={14}/> AI-POWERED CAREER DISCOVERY</div><h1>Your next role<br/>starts <em>with your skills.</em></h1><p>Turn your resume into a clear path forward. Discover roles ranked by how closely your experience aligns with what employers need.</p>
           <div className="hero-stats"><div><strong>{jobs.length.toString().padStart(2,'0')}</strong><span>OPEN ROLES</span></div><i></i><div><strong>{results.length.toString().padStart(2,'0')}</strong><span>YOUR MATCHES</span></div><i></i><div><strong>TF-IDF</strong><span>AI METHOD</span></div></div>
         </div>
-        <div className="hero-art"><div className="orbit orbit-one"></div><div className="orbit orbit-two"></div><div className="art-center"><FileText size={42}/></div>
+        <div className="hero-art"><div className="orbit orbit-one"></div><div className="orbit orbit-two"></div><div className="art-center"><FileText size={42}/></div><div className="float-card card-a"><span className="float-icon violet">
