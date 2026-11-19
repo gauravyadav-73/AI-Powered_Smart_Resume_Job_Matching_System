@@ -74,3 +74,4 @@ export default function App() {
     </aside>
     <main className="main">
       <header className="topbar"><div className="breadcrumb">Workspace <span>/</span> <b>{activeTab==='match'?'Resume matching':'Explore jobs'}</b></div><div className="status-pill"><span className="status-dot"></span> Matching engine ready</div></header>
+      <section className="hero">
