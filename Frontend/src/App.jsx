@@ -73,4 +73,4 @@ export default function App() {
       <div className="sidebar-foot">BUILT FOR YOUR NEXT CHAPTER</div>
     </aside>
     <main className="main">
-      <header className="topbar"><div className="breadcrumb">Workspace <span>/</span>
+      <header className="topbar"><div className="breadcrumb">Workspace <span>/</span> <b>{activeTab==='match'?'Resume matching':'Explore jobs'}
