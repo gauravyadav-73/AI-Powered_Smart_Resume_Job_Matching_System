@@ -72,3 +72,4 @@ export default function App() {
       <div className="sidebar-bottom"><div className="mini-icon"><Sparkles size={17}/></div><div><b>Smarter career moves</b><p>Find opportunities that fit your skills.</p></div></div>
       <div className="sidebar-foot">BUILT FOR YOUR NEXT CHAPTER</div>
     </aside>
+    <main className="main">
