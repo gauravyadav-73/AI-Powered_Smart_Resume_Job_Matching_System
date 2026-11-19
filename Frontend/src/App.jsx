@@ -73,3 +73,4 @@ export default function App() {
       <div className="sidebar-foot">BUILT FOR YOUR NEXT CHAPTER</div>
     </aside>
     <main className="main">
+      <header className="topbar">
