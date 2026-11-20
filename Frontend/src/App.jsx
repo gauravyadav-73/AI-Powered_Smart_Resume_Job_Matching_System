@@ -82,3 +82,5 @@ export default function App() {
       </section>
 
       {(error||notice) && <div className={`flash ${error?'error':''}`}><span>{error?<AlertCircle size={17}/>:<CheckCircle2 size={17}/>}</span>{error||notice}<button onClick={()=>{setError('');setNotice('')}}><X size={15}/></button></div>}
+
+      <div className=
