@@ -85,4 +85,4 @@ export default function App() {
 
       <div className="content-grid">
         <section className="left-column">
-          <div className="section-heading"><div><span className=
+          <div className="section-heading"><div><span className="step-label">STEP 01</span>
