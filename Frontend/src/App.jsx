@@ -87,4 +87,4 @@ export default function App() {
         <section className="left-column">
           <div className="section-heading"><div><span className="step-label">STEP 01</span><h2>Start with your resume</h2><p>Upload a file or paste your resume content to find your best-fit roles.</p></div><div className="step-icon"><FileText size={21}/></div></div>
           <form className="resume-card" onSubmit={runMatch}>
-            <label className="upload-zone"><input type="file" 
+            <label className="upload-zone"><input type="file" accept=".pdf,.doc,.docx,.txt" 
