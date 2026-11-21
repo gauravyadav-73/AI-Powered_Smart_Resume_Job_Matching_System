@@ -85,4 +85,4 @@ export default function App() {
 
       <div className="content-grid">
         <section className="left-column">
-          <div className="section-heading"><div><span className="step-label">STEP 01</span><h2>Start with your resume</h2><p>Upload a file or paste your resume content to find your best-fit roles.</p>
+          <div className="section-heading"><div><span className="step-label">STEP 01</span><h2>Start with your resume</h2><p>Upload a file or paste your resume content to find your best-fit roles.</p></div><div className="step-icon"><FileText size={21}/></div></div>
