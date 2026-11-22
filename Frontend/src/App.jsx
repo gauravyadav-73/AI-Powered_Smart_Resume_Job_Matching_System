@@ -89,4 +89,4 @@ export default function App() {
           <form className="resume-card" onSubmit={runMatch}>
             <label className="upload-zone"><input type="file" accept=".pdf,.doc,.docx,.txt" onChange={e=>{setFile(e.target.files?.[0]||null);setError('')}}/><div className="upload-symbol"><Upload size={21}/></div><div className="upload-title">{file?file.name:'Drop your resume here'}</div><div className="upload-sub">{file?'Ready to parse · '+(file.size/1024).toFixed(0)+' KB':'or click to browse · PDF, DOCX, DOC, TXT'}</div><span className="browse-btn">{file?'Change file':'Browse files'}</span></label>
             <div className="or-divider"><span></span> OR PASTE RESUME TEXT <span></span></div>
-            <textarea value={resumeText} onChange={e=>setResumeText(e.target.value)} placeholder="Paste your professional summary,
+            <textarea value={resumeText} onChange={e=>setResumeText(e.target.value)} placeholder="Paste your professional summary, skills, experience, and education here..." rows="7"/>
