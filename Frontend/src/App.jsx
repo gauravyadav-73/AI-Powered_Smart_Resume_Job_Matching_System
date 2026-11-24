@@ -91,4 +91,4 @@ export default function App() {
             <div className="or-divider"><span></span> OR PASTE RESUME TEXT <span></span></div>
             <textarea value={resumeText} onChange={e=>setResumeText(e.target.value)} placeholder="Paste your professional summary, skills, experience, and education here..." rows="7"/>
             <div className="resume-actions"><span className="privacy-note"><span className="tiny-lock">✓</span> Processed for matching only</span><button className="primary-btn" type="submit" disabled={loading}>{loading?<><LoaderCircle className="spin" size={17}/> Analyzing...</>:<><Sparkles size={16}/> Find my matches <ArrowUpRight size={16}/></>}</button></div>
-            <button className="sample-btn" type="button" onClick={()=>{setResumeText(sampleResume);setFile(null);
+            <button className="sample-btn" type="button" onClick={()=>{setResumeText(sampleResume);setFile(null);setError('')}}>
