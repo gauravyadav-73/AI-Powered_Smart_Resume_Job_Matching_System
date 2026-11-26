@@ -94,3 +94,4 @@ export default function App() {
             <button className="sample-btn" type="button" onClick={()=>{setResumeText(sampleResume);setFile(null);setError('')}}>Try with sample resume</button>
           </form>
           {analysis && <div className="analysis-card"><div className="analysis-top"><div><span className="step-label">RESUME INSIGHTS</span><h3>Profile snapshot</h3></div><span className="analysis-badge"><CheckCircle2 size={14}/> Parsed</span></div><div className="insight-stats"><div><b>{analysis.wordCount}</b><span>Words</span></div><div><b>{analysis.characterCount}</b><span>Characters</span></div></div><div className="keyword-list">{analysis.keywords?.slice(0,16).map(k=><span key={k}>{k}</span>)}</div></div>}
+        </section>
